@@ -202,7 +202,7 @@ body {
 }
 
 /* ============================================
-   RESPONSIVE BREAKPOINTS — ADDED ONLY
+   RESPONSIVE BREAKPOINTS
    ============================================ */
 
 @media (max-width: 900px) {
@@ -217,6 +217,18 @@ body {
     min-width: auto;
     width: 100%;
     max-width: 300px;
+  }
+
+  .terms-layout {
+    padding: 50px 24px;
+  }
+
+  .terms-box {
+    padding: 40px;
+  }
+
+  .projects-layout {
+    padding: 50px 24px;
   }
 }
 
@@ -246,26 +258,38 @@ body {
   }
 
   .terms-layout {
-    padding: 40px 16px;
+    padding: 30px 16px;
   }
 
   .terms-box {
-    padding: 30px 24px;
+    padding: 30px 20px;
+    font-size: 18px;
   }
 
   .terms-box h2 {
     font-size: 32px;
   }
 
+  .terms-box h3 {
+    font-size: 22px;
+  }
+
   .projects-layout {
-    padding: 40px 16px;
+    padding: 30px 16px;
   }
 
   .projects-layout h2 {
     font-size: 32px;
+    margin-bottom: 24px;
   }
 
   .projects-grid {
     grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .project-btn {
+    padding: 24px;
+    font-size: 18px;
   }
 }
